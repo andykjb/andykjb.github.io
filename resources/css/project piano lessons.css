@@ -1,0 +1,130 @@
+
+
+#piano-project-card{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ffc63f;
+}
+
+#piano-project-card #close{
+    font-size: larger;
+    margin-top: 5px;
+    margin-right: 10px;
+    background-color: #fd4d3f;
+    color: whitesmoke;
+    float: right;
+    border-radius: 10%;
+
+}
+
+#piano-project-card #piano-title{
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+  color: #141c3a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#piano-project-card #demo{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #141c3a;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+#piano-project-card .piano{
+  width: 305px;
+  height: 210px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fd4d3f;
+  margin-top: 30px;
+}
+#piano-project-card .key{
+  width: 30px;
+  height: 200px;
+  display: inline-block;
+  border: solid #141c3a 2px;
+  box-shadow: 2px 5px;
+  background-color: white;
+  color: #141c3a;
+}
+#piano-project-card .black-key{
+  width: 25px;
+  height: 100px;
+  display: inline-block;
+  background-color: #141c3a;
+  color: white;
+  position: absolute;
+  margin-left: -12px;
+  padding: 0px;
+}
+#piano-project-card .keynote{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 175px;
+  color: #141c3a;
+}
+#piano-project-card .black-keynote{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+#piano-project-card #lyrics{
+  width: 400px;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  margin-top: 50px;
+  background-color: #fd4d3f;
+}
+#piano-project-card #column-one, #piano-project-card #column-two, #piano-project-card #column-three, #piano-project-card #column-four, #piano-project-card #column-five, #piano-project-card #column-six, #piano-project-card #column-optional{
+  width: 90px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+#piano-project-card #column-optional{
+  display: none;
+}
+#piano-project-card #word-one, #piano-project-card #word-two, #piano-project-card #word-three, #piano-project-card #word-four, #piano-project-card #word-five, #piano-project-card #word-six, #piano-project-card #word-optional{
+  background-color: white;
+  width: 90px;
+  height: 25px;
+  padding-top: 10px;
+  letter-spacing: 5px;
+  color: #141c3a;
+}
+#piano-project-card #letter-note-one, #piano-project-card #letter-note-two, #piano-project-card #letter-note-three, #piano-project-card #letter-note-four, #piano-project-card #letter-note-five, #piano-project-card #letter-note-six, #piano-project-card #letter-note-optional{
+  color: white;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+#piano-project-card #first-next-line, #piano-project-card #second-next-line, #piano-project-card #third-next-line, #piano-project-card #fourth-next-line{
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: none;
+  background-color: #ffc63f;
+  color: #141c3a;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
